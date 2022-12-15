@@ -13,6 +13,7 @@ blocks:
       jobs:
         - name: Test
           commands:
+            - ruby --version
             - checkout
             - sudo gem install bundler -v '2.1.4'
             - bundle install --path vendor/bundle
