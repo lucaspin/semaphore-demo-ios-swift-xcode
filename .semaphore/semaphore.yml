@@ -14,7 +14,7 @@ blocks:
         - name: Test
           commands:
             - checkout
-            - gem install bundler -v '2.1.4'
+            - sudo gem install bundler -v '2.1.4'
             - bundle install --path vendor/bundle
             - xcversion select 12.4
             - bundle exec fastlane test
